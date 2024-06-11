@@ -66,7 +66,7 @@ export class BettingGameServiceService {
       url: "wss://tgame.busillis.com/",
       // url: "ws://localhost:9000/",
       options: {
-        // transports: ['polling'], 
+        transports: ['polling'], 
         reconnection: true
       },
     });
